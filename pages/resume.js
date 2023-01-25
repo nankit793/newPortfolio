@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Link from "next/link";
+import Head from "next/head";
 
 import { Document, Page, pdfjs } from "react-pdf";
 import { useRouter } from "next/router";
@@ -16,6 +17,13 @@ function Resume() {
   //   const [pageNumber, setPageNumber] = useState(0);
   return (
     <>
+      <Head>
+        <title>Ankit Negi - Online Resume</title>
+        <meta
+          name="description"
+          content="my name is Ankit Negi I am a full stack developer."
+        ></meta>
+      </Head>
       <Navbar onClick={onClick} />
       <div className="flex bg-[#65aed9]  items-start gap-5 flex-wrap md:gap-80 px-20 justify-center pb-[120px] pt-20 text-text_1">
         <div className="text-[25px] font-bold text-[white]">Resume</div>

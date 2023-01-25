@@ -16,6 +16,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import AddCircleOutlineRoundedIcon from "@mui/icons-material/AddCircleOutlineRounded";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import CodeIcon from "@mui/icons-material/Code";
+import Avatar from "@mui/material/Avatar";
 
 // import styles from '@/styles/Home.module.css'
 
@@ -44,12 +45,19 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Ankit Negi - Full Stack developer</title>
+        <meta
+          name="description"
+          content="my name is Ankit Negi I am a full stack developer."
+        ></meta>
+      </Head>
       <Navbar onClick={onBtnClick} />
       <div className="w-full bg-[#65aed9] flex justify-center items-center pt-20 md:pt-10">
         <div className="md:flex gap-10 md:p-[40px] p-[20px]">
           <div className="rounded">
             <Image
-              className="rounded-3xl"
+              className="rounded-xl"
               src="/profilePhoto.png"
               alt="me"
               width="1000"
