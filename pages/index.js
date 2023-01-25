@@ -234,7 +234,7 @@ export default function Home() {
             Experience
           </div>
           <div className="text-center text-text_2 text-md md:mx-0 mx-3">
-            Below is given my up to date experience in proffessioanl career
+            Below is given my up to date experience in professional career
           </div>
           <div className="border rounded mt-5 bg-color_2 drop-shadow-lg">
             <div className="text-color_2 font-bold text-[17 px] bg-[#41A4F5] py-2 px-5">
