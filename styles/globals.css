@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.image{
+    background-image: url("https://wallpaper.dog/large/10777727.jpg");
+}
+
+.textRemove .react-pdf__Page__textContent  {
+    display: none;
+}
+.textRemove .react-pdf__Page__annotations  {
+    display: none;
+}
