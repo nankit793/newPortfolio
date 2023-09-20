@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title className="">Ankit Negi - Full Stack developer</title>
+        <title className="">Ankit Negi - Data Scientist</title>
         <meta
           name="description"
           content="my name is Ankit Negi I am a full stack developer."
