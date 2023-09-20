@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -29,6 +30,12 @@ module.exports = {
         text_1: "#36454f",
         text_2: "#808080",
       },
+    },
+    fontFamily: {
+      rubik: ["Rubik", "sans-serif"],
+      workSans: ["Work Sans", "sans-serif"],
+      signika: ["Signika Negative", "sans-serif"],
+      heading: ["Castoro Titling", "sans-serif"],
     },
   },
   plugins: [],

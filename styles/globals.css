@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Rubik&family=Signika+Negative&family=Work+Sans&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 .image{
     background-image: url("https://wallpaper.dog/large/10777727.jpg");
@@ -11,4 +14,18 @@
 }
 .textRemove .react-pdf__Page__annotations  {
     display: none;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .slideUp {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }

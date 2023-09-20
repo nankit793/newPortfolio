@@ -68,11 +68,11 @@ function Navbar(props) {
           />
         </div>
       </div>
-      <div className=" gap-5 md:flex hidden text-sm">
+      <div className=" gap-5 md:flex hidden text-sm [&>div]:font-workSans">
         <div
           goto="about"
           onClick={props.onClick}
-          className=" text-white cursor-pointer text-text_1 "
+          className="  cursor-pointer text-[white]"
         >
           ABOUT
         </div>
@@ -121,7 +121,7 @@ function Navbar(props) {
           <div
             goto="about"
             onClick={props.onClick}
-            className=" text-color-5 font-semibold cursor-pointer text-text_1 "
+            className=" text-color-5 font-workSans cursor-pointer text-text_1 "
           >
             ABOUT
           </div>
@@ -130,28 +130,28 @@ function Navbar(props) {
             onClick={() => {
               router.push("/resume");
             }}
-            className=" text-color-5 font-semibold cursor-pointer"
+            className=" text-color-5 font-workSans cursor-pointer"
           >
             RESUME
           </div>
           <div
             goto="experience"
             onClick={props.onClick}
-            className=" text-color-5 font-semibold cursor-pointer"
+            className=" text-color-5 font-workSans cursor-pointer"
           >
             EXPERIENCE
           </div>
           <div
             goto="projects"
             onClick={props.onClick}
-            className=" text-color-5 font-semibold cursor-pointer "
+            className=" text-color-5 font-workSans cursor-pointer "
           >
             PROJECTS
           </div>
           <div
             goto="contact"
             onClick={props.onClick}
-            className=" text-color-5 font-semibold cursor-pointer"
+            className=" text-color-5 font-workSans cursor-pointer"
           >
             CONTACT
           </div>
