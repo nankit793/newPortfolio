@@ -79,20 +79,22 @@ export default function Home() {
                 ANKIT NEGI
               </div>
             </div>
-            <div className="md:text-left text-center font-rubik">
-              Persuing final year of my graduation major Computer Science .
-              Aiming to leverage proven communication, leadership, and
-              management skills to successfully fill the Full Stack Developer
-              role in your company. I am always ready to learn new skills and
-              technologies and Frequently praised as hard-working by my seniors,
-              I can be relied upon to help your company achieve its goals and
-              tasks.
+            <div className="md:text-left  text-center font-rubik">
+              My goal as a novice data scientist is to master core data analysis
+              skills, including data collection, cleaning, and visualization
+              using Python and essential libraries. I aim to develop basic
+              machine learning knowledge for creating predictive models and
+              extracting insights from data. I{"'"}m eager to collaborate with
+              teams and contribute to data-driven decision-making in various
+              domains, aspiring to provide valuable insights and make a positive
+              impact. Continuous learning and professional growth are my
+              priorities as I embark on my data science journey.
             </div>
             <Link
               href="/ankitNegiDS.pdf"
               download="ankit_negi_resume"
               target="_blank"
-              className="py-2 px-5 bg-color_7  hover:bg-color_5 mt-2 duration-200  rounded-full font-workSans cursor-pointer text-[white]"
+              className="py-2 px-5 bg-color_7  hover:bg-color_5 mt-3 duration-200  rounded-full font-workSans cursor-pointer text-[white]"
               // className="bg-color_5 cursor-pointer font-semibold hover:bg-color_7 duration-200 px-10 py-2  rounded w-min text-[white] whitespace-nowrap mt-5 md:mt-2"
             >
               <DownloadIcon fontSize="small" sx={{ marginRight: "5px" }} />
@@ -186,7 +188,14 @@ export default function Home() {
                 fontSize="small"
                 sx={{ color: "#41A4F5", marginRight: "5px" }}
               />{" "}
-              Random Forest, Regression
+              Random Forest
+            </div>
+            <div className="flex justify-start items-center text-text_1 mx-5 text-[17px] my-1">
+              <DoneIcon
+                fontSize="small"
+                sx={{ color: "#41A4F5", marginRight: "5px" }}
+              />{" "}
+              Linear Regression
             </div>
             <div className="flex justify-start items-center text-text_1 mx-5 text-[17px] my-1">
               <DoneIcon
