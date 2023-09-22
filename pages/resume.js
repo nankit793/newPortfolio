@@ -28,7 +28,7 @@ function Resume() {
       <div className="flex bg-[#65aed9]  items-start gap-5 flex-wrap md:gap-80 px-20 justify-center pb-[120px] pt-20 text-text_1">
         <div className="text-[25px] font-workSans text-[white]">Resume</div>
         <Link
-          href="/ankitNegiDS.pdf"
+          href="/ankitNegiDS_.pdf"
           download="ankit_negi_resume"
           target="_blank"
           className="py-2 px-5 bg-color_7 font-workSans hover:bg-color_5 duration-200  rounded-full cursor-pointer text-[white]"
@@ -38,7 +38,7 @@ function Resume() {
       </div>
       <div className="w-full relative top-[-80px] px-3  md:px-10 flex justify-center textRemove">
         <div className="border overflow-x-auto rounded">
-          <Document file="/ankitNegiDS.pdf">
+          <Document file="/ankitNegiDS_.pdf">
             <Page pageIndex={0} />
           </Document>
         </div>

@@ -91,7 +91,7 @@ export default function Home() {
               priorities as I embark on my data science journey.
             </div>
             <Link
-              href="/ankitNegiDS.pdf"
+              href="/ankitNegiDS_.pdf"
               download="ankit_negi_resume"
               target="_blank"
               className="py-2 px-5 bg-color_7  hover:bg-color_5 mt-3 duration-200  rounded-full font-workSans cursor-pointer text-[white]"
