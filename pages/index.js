@@ -398,12 +398,12 @@ export default function Home() {
               FINE TUNED LLM MODEL
             </div>
             <div className="text-sm text-text_2 font-rubik">
-              Utilized the llama2finetune-v2 model as the base model TO Enhanced
-              the model using specialized medical datasets to improve its
-              performance in healthcare-related NLP tasks. Skilled in machine
-              learning, fine-tuning models, and creating tokenization, prices,
-              leveraging extensive data cleaning and visualization techniques
-              and Achieved 75% accuracy
+              Utilized the llama2finetune-v2 model as the base model and
+              Enhanced the model using specialized medical datasets to improve
+              its performance in healthcare-related NLP tasks. Skilled in
+              machine learning, fine-tuning models, and creating tokenization,
+              prices, leveraging extensive data cleaning and visualization
+              techniques and Achieved 75% accuracy
             </div>
 
             <div className="flex flex-wrap gap-5 my-2">
