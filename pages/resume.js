@@ -38,7 +38,7 @@ function Resume() {
       </div>
       <div className="w-full relative top-[-80px] px-3  md:px-10 flex justify-center textRemove">
         <div className="border overflow-x-auto rounded">
-          <Document file="/ankitNegiDS.pdf">
+          <Document file="/ankit_negi_resume.pdf">
             <Page pageIndex={0} />
           </Document>
         </div>
