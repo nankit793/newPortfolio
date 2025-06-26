@@ -9,6 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Popover from "@mui/material/Popover";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import Tooltip from "@mui/material/Tooltip";
 
 import { useRouter } from "next/router";
 import SwipeableTemporaryDrawer from "./Drawer";
@@ -31,42 +32,48 @@ function Navbar(props) {
   return (
     <div className="flex justify-between items-center bg-color_5 p-4 fixed top-0 w-full z-10">
       <div className="flex gap-5">
-        <div
-          className="p-1 flex items-center rounded-full duration-200 hover:bg-color_4"
-          onClick={() => {
-            window.open("https://leetcode.com/nankit793/", "_blank");
-          }}
-        >
-          <CodeIcon
-            sx={{ color: "white" }}
-            fontSize="medium"
-            className="cursor-pointer"
-          />
-        </div>
-        <div
-          className="p-1 flex items-center rounded-full duration-200 hover:bg-color_4"
-          onClick={() => {
-            window.open("https://github.com/nankit793", "_blank");
-          }}
-        >
-          <GitHubIcon
-            sx={{ color: "white" }}
-            fontSize="medium"
-            className="cursor-pointer"
-          />
-        </div>
-        <div
-          className="p-1 flex items-center rounded-full duration-200 hover:bg-color_4"
-          onClick={() => {
-            window.open("https://www.linkedin.com/in/nankit/", "_blank");
-          }}
-        >
-          <LinkedInIcon
-            sx={{ color: "white" }}
-            fontSize="medium"
-            className="cursor-pointer"
-          />
-        </div>
+        <Tooltip title="Leetcode">
+          <div
+            className="p-1 flex items-center rounded-full duration-200 hover:bg-color_4"
+            onClick={() => {
+              window.open("https://leetcode.com/nankit793/", "_blank");
+            }}
+          >
+            <CodeIcon
+              sx={{ color: "white" }}
+              fontSize="medium"
+              className="cursor-pointer"
+            />
+          </div>
+        </Tooltip>
+        <Tooltip title="Github">
+          <div
+            className="p-1 flex items-center rounded-full duration-200 hover:bg-color_4"
+            onClick={() => {
+              window.open("https://github.com/nankit793", "_blank");
+            }}
+          >
+            <GitHubIcon
+              sx={{ color: "white" }}
+              fontSize="medium"
+              className="cursor-pointer"
+            />
+          </div>
+        </Tooltip>
+        <Tooltip title="Linkedin">
+          <div
+            className="p-1 flex items-center rounded-full duration-200 hover:bg-color_4"
+            onClick={() => {
+              window.open("https://www.linkedin.com/in/nankit/", "_blank");
+            }}
+          >
+            <LinkedInIcon
+              sx={{ color: "white" }}
+              fontSize="medium"
+              className="cursor-pointer"
+            />
+          </div>
+        </Tooltip>
       </div>
       <div className=" gap-5 md:flex hidden text-sm [&>div]:font-workSans">
         <div

@@ -80,15 +80,11 @@ export default function Home() {
               </div>
             </div>
             <div className="md:text-left  text-center font-rubik">
-              My goal as a novice data scientist is to master core data analysis
-              skills, including data collection, cleaning, and visualization
-              using Python and essential libraries. I aim to develop basic
-              machine learning knowledge for creating predictive models and
-              extracting insights from data. I{"'"}m eager to collaborate with
-              teams and contribute to data-driven decision-making in various
-              domains, aspiring to provide valuable insights and make a positive
-              impact. Continuous learning and professional growth are my
-              priorities as I embark on my data science journey.
+              Aspiring Data Scientist having 2+ years of experience as software
+              engineer with hands-on project experience in machine learning, LLM
+              fine-tuning, and full-stack development using Python and
+              JavaScript. Passionate about solving real-world problems through
+              data and learning new technologies.
             </div>
             <Link
               href="/ankit_negi_resume.pdf"
@@ -181,56 +177,42 @@ export default function Home() {
                 fontSize="small"
                 sx={{ color: "#41A4F5", marginRight: "5px" }}
               />{" "}
-              Decision tree (CART)
+              Supervised ML
             </div>
             <div className="flex justify-start items-center text-text_1 mx-5 text-[17px] my-1">
               <DoneIcon
                 fontSize="small"
                 sx={{ color: "#41A4F5", marginRight: "5px" }}
               />{" "}
-              Random Forest
+              Unsupervised ML
             </div>
             <div className="flex justify-start items-center text-text_1 mx-5 text-[17px] my-1">
               <DoneIcon
                 fontSize="small"
                 sx={{ color: "#41A4F5", marginRight: "5px" }}
               />{" "}
-              Linear Regression
+              NLP
             </div>
             <div className="flex justify-start items-center text-text_1 mx-5 text-[17px] my-1">
               <DoneIcon
                 fontSize="small"
                 sx={{ color: "#41A4F5", marginRight: "5px" }}
               />{" "}
-              Logistic Regression
+              LLMs
             </div>
             <div className="flex justify-start items-start text-text_1 mx-5 text-[17px] my-1">
               <DoneIcon
                 fontSize="small"
                 sx={{ color: "#41A4F5", marginRight: "5px" }}
               />{" "}
-              Support Vector Machine (SVM)
+              Deep Learning
             </div>
             <div className="flex justify-start items-center text-text_1 mx-5 text-[17px] my-1">
               <DoneIcon
                 fontSize="small"
                 sx={{ color: "#41A4F5", marginRight: "5px" }}
               />{" "}
-              Clustering (K-Means)
-            </div>
-            <div className="flex justify-start items-start text-text_1 mx-5 text-[17px] my-1">
-              <DoneIcon
-                fontSize="small"
-                sx={{ color: "#41A4F5", marginRight: "5px" }}
-              />{" "}
-              K-Nearest Neighbors (KNN)
-            </div>
-            <div className="flex justify-start items-center text-text_1 mx-5 text-[17px] my-1">
-              <DoneIcon
-                fontSize="small"
-                sx={{ color: "#41A4F5", marginRight: "5px" }}
-              />{" "}
-              Naive Bayes
+              Neural Networks
             </div>
             <div className="flex justify-start items-start text-text_1 mx-5 text-[17px] my-1">
               <DoneIcon
@@ -265,6 +247,13 @@ export default function Home() {
                 sx={{ color: "#41A4F5", marginRight: "5px" }}
               />{" "}
               JavaScript
+            </div>
+            <div className="flex justify-start items-center text-text_1 mx-5 text-[17px] my-1">
+              <DoneIcon
+                fontSize="small"
+                sx={{ color: "#41A4F5", marginRight: "5px" }}
+              />{" "}
+              SQL
             </div>
             <h1 className="text-color_4  font-rubik text-[17px]  mt-3 ">
               Visualization
@@ -353,7 +342,7 @@ export default function Home() {
               <div className="px-5">
                 <div className="text-text_1 my-2 font-rubik text-[17px] flex flex-wrap justify-between items-center">
                   <div className="">Software Engineer</div>
-                  <div className="text-[14px]">October 2023 - Present</div>
+                  <div className="text-[14px]">September 2023 - Present</div>
                 </div>
                 <div className="text-gray-400 text-md pb-4 font-rubik">
                   <div className="flex items-start gap-4 justify-start">
@@ -366,17 +355,25 @@ export default function Home() {
                   <div className="flex items-start gap-4 justify-start">
                     <div className="w-[5px] h-[5px] bg-text_2 rounded-full mt-2"></div>
                     <div className="w-[90%]">
-                      Worked on two key applications: PACT and Links Explorer,
-                      enhancing project management and data exploration
-                      capabilities for users.
+                      Worked on two key applications like PACT and Links
+                      Explorer, enhancing project management and issues
+                      exploration capabilities for users.
                     </div>
                   </div>
                   <div className="flex items-start gap-4 justify-start">
                     <div className="w-[5px] h-[5px] bg-text_2 rounded-full mt-2"></div>
                     <div className="w-[90%]">
                       Contributed to improving the overall efficiency by 40% and
+                      optimized the speed of applications up to 60%, Improved
                       performance of the development team through innovative
-                      solutions and effective collaboration
+                      solutions and effective collaboration.
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4 justify-start">
+                    <div className="w-[5px] h-[5px] bg-text_2 rounded-full mt-2"></div>
+                    <div className="w-[90%]">
+                      Made Links Explorer the most used application for project
+                      management in Jira marketplace.
                     </div>
                   </div>
                 </div>
@@ -395,15 +392,16 @@ export default function Home() {
         <div className="[&>*]:max-w-[350px]  flex flex-wrap justify-center items-start gap-5 mt-4 5">
           <div className="p-3  md:w-[35%] border bg-color_2 py-2 drop-shadow">
             <div className="text-color_4  text-[18px] mb-2 font-workSans">
-              FINE TUNED LLM MODEL
+              FINE TUNED LLM MODEL FOR CHATBOT
             </div>
             <div className="text-sm text-text_2 font-rubik">
-              Utilized the llama2finetune-v2 model as the base model and
-              Enhanced the model using specialized medical datasets to improve
-              its performance in healthcare-related NLP tasks. Skilled in
-              machine learning, fine-tuning models, and creating tokenization,
-              prices, leveraging extensive data cleaning and visualization
-              techniques and Achieved 75% accuracy
+              Utilized the llama2finetune-v2 model as the base model for
+              generative AI. Trained model on various PDF data like Python
+              Programming, Software Engineering, Medical terminologies. Enhanced
+              the model using specialized medical datasets to improve its
+              performance in healthcare-related NLP tasks. Skilled in machine
+              learning, fine-tuning models, and creating tokenization for
+              predictions.
             </div>
 
             <div className="flex flex-wrap gap-5 my-2">
@@ -452,20 +450,24 @@ export default function Home() {
           </div>
           <div className="p-3  md:w-[35%] border bg-color_2 py-2 drop-shadow">
             <div className="text-color_4  text-[18px] mb-2 font-workSans">
-              HR Analytics
+              CREDIT CARD CAMPAIGN
             </div>
             <div className="text-sm text-text_2 font-rubik">
-              Created an HR Analytics classification model using Logistic
-              Regression achieving upto 80% accuracy.
+              Successfully analyzed Cancer diagnosis data and built a predictive
+              model. Utilized interactive visualizations and data filters to
+              enhance data exploration and inform decision-making. Used K-Fold
+              cross-validation technique to avoid overfitting, Designed and
+              compared models like Support Vector Machine (SVM), Random Forest
+              Classifier, and Logistic Regression.
             </div>
 
             <div className="flex flex-wrap gap-5 my-2">
               {[
-                "Logistic Regression",
+                "Supervised ML",
                 "Visualization",
                 "Standardization",
                 "Seaborn",
-                "Training Test Split",
+                "Stratified Split",
               ].map((item, index) => {
                 return (
                   <div
