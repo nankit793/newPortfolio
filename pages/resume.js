@@ -31,9 +31,9 @@ function Resume() {
           href="/ankit_negi_resume.pdf"
           download="ankit_negi_resume"
           target="_blank"
-          className="py-2 px-5 bg-color_7 font-workSans hover:bg-color_5 duration-200  rounded-full cursor-pointer text-[white]"
+          className="py-2 px-5 bg-color_7 font-workSans hover:bg-color_5 duration-200  rounded-[5px] cursor-pointer text-[white]"
         >
-          Download CVs
+          Download CV
         </Link>
       </div>
       <div className="w-full relative top-[-80px] px-3  md:px-10 flex justify-center textRemove">

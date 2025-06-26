@@ -90,7 +90,7 @@ export default function Home() {
               href="/ankit_negi_resume.pdf"
               download="ankit_negi_resume"
               target="_blank"
-              className="py-2 px-5 bg-color_7  hover:bg-color_5 mt-3 duration-200  rounded-full font-workSans cursor-pointer text-[white]"
+              className="py-2 px-5 bg-color_7  hover:bg-color_5 mt-3 duration-200  rounded-[5px] font-workSans cursor-pointer text-[white]"
               // className="bg-color_5 cursor-pointer font-semibold hover:bg-color_7 duration-200 px-10 py-2  rounded w-min text-[white] whitespace-nowrap mt-5 md:mt-2"
             >
               <DownloadIcon fontSize="small" sx={{ marginRight: "5px" }} />
